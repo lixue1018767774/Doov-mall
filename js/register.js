@@ -1,0 +1,44 @@
+$(function(){
+	// 表单验证
+	$("#signupForm").validate({
+		rules:{
+			txt:"required",
+			pwd1:{
+				required:true,
+				rangelength:[6,12]
+			},
+			pwd2:{
+				required:true,
+				rangelength:[6,12],
+				equalTo:'#pwd1'
+			},
+			yz:{
+				required:true,
+				minlength:4,
+				maxlength:4,
+				equalTo:'#hyz'
+			}
+		},
+		messages:{
+			txt:"请输入邮箱/手机号",
+			pwd1:{
+				required:"请输入密码",
+				rangelength:"密码的长度为6-12位"
+			},
+			pwd2:{
+				required:"请输入密码",
+				rangelength:"密码的长度为6-12位",
+				equalTo:'两次输入的密码不一致'
+			},
+			yz:{
+				required:"请输入验证码",
+				minlength:"验证码的长度为4位",
+				maxlength:"验证码的长度为4位",
+				equalTo:'输入的验证码不对'
+			}
+		},
+		errorPlacement:function(error,element){
+			error.prependTo(element.next()); 
+		}
+	});
+});

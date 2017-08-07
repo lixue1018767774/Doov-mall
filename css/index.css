@@ -1,0 +1,448 @@
+/*首页样式*/
+body{
+	background-color: #F8F8F8;
+}
+/*头部第一个横向菜单的样式*/
+.menufirst{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	color: #777;
+}
+.menufirst li{
+	position: relative;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 8px;
+}
+.menufirst li:nth-child(1){
+	margin-left: 60px;
+}
+.menufirst .fk{
+	margin-right: 845px;
+}
+.menufirst li a{
+	color: #ccc;
+}
+.menufirst li a:hover{
+	color: #fff;
+}
+/*头部朵唯微信处的样式*/
+.weixin{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 40px;
+	left: -8px;
+	z-index: 3;
+	display: none;
+}
+.menufirst li:nth-child(1):hover>.weixin{
+	display: block;
+}
+/*头部第一个横向菜单最右边的div的样式*/
+.menufirst-right{
+	position: relative;
+	left:1160px;
+	top: -40px;
+	width: 120px;
+	height: 40px;
+}
+.menufirst-right>a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #b0b0b0;
+	line-height: 40px;
+	text-align: center;
+	background-color: #424242;
+}
+/*购物车图片样式*/
+.shoppingcar{
+	vertical-align: middle;
+}
+/*购物车详情样式*/
+.shopcarjs{
+	position: absolute;
+	right:0px;
+	top:40px;
+	z-index: 5;
+	display: none;
+	width: 320px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #fff;
+	/*阴影*/
+	box-shadow: 0px 7px 12px rgba(0,0,0,0.2);
+}
+.menufirst-right:hover>a{
+	color: #E5006A;
+	background-color: #fff;
+}
+.menufirst-right:hover>.shopcarjs{
+	display: block;
+}
+/*首页头部第二个导航条*/
+.nav{
+	clear: left;
+	position: relative;
+	top: -40px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+}
+.icon{
+	clear: left;
+	float: left;
+	margin-left: 60px;
+	margin-top: 40px; 
+}
+/*头部第二个横向菜单的样式*/
+.menusecond{
+	clear: left;
+	position: relative;
+	top:-63px;
+	left: 370px;
+	width: 292px;
+	height:100px;
+}
+.menusecond>li{
+	float: left;
+}
+.menusecond>li>a{
+	font-size: 18px;
+	display: block;
+	height:100px;
+	margin-right:45px; 
+	line-height: 100px;
+}
+/*触摸头部第二个横向菜单的li会出现被隐藏的内容*/
+.menusecond>li:hover>.menu-bottom{
+	visibility: visible;
+}
+.menusecond>li:hover>a{
+	color: #E5006A;
+}
+.menusecond:hover>li>.menu-bottom>div{
+	opacity:1;
+	height: 230px;
+	transition: all 0.4s;
+}
+.menusecond>li:hover>.menu-bottom>div>ul>li{
+	margin-left: 40px;
+	opacity: 1;
+	transition: all 0.6s 0.3s linear;
+}
+/*头部第二个横向菜单的下滑具体内容的样式*/
+.menusecond>li>.menu-bottom{
+	position: absolute;
+	left:-370px;
+	top: 100px;
+	z-index: 4;
+	width: 1364px;
+	height:230px;
+	visibility: hidden;
+}
+.menusecond>li>.menu-bottom>div{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	z-index: 4;
+	overflow: hidden;
+	width: 1364px;
+	height:0px;
+	opacity:0;
+	background-color: #fff;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	transition: all 0.4s;
+}
+.menusecond>li>.menu-bottom>div>ul{
+	position: absolute;
+	left:0px;
+	top: 0px;
+	z-index: 5;
+	clear:left;
+	margin-left:64px;
+	width: 1320px;
+	height:170px;
+	margin-top: 36px;
+}
+.menusecond li ul li{
+	float: left;
+	margin-left: 60px;
+	opacity: 0;
+	text-align: center;
+}
+.menusecond li ul li a{
+	display: block;
+	height:144px;
+	line-height: 26px;
+}
+.menusecond li ul li a img{
+	width: 160px;
+	height: 110px;
+}
+.menusecond li ul li a:hover{
+	color: #000;
+}
+.menusecond li ul li p{
+	color: #FF384A;
+}
+.menuthird{
+	clear:left;
+	position: absolute;
+	left: 650px;
+	top: -1px;
+	width: 200px;
+	height:100px;
+}
+.menuthird li{
+	float: left;
+	margin-right: 45px;
+}
+.menuthird>li>a{
+	font-size: 18px;
+	display: block;
+	height:100px;
+	line-height: 100px;
+}
+/*头部搜索框样式*/
+.searchtxt{
+	clear:left;
+	position: absolute;
+	left: 988px;
+	top:0px;
+	margin-top: 25px;
+	padding-left: 10px;
+	width: 228px;
+	height: 50px;
+	border:1px #ddd solid;
+}
+.search{
+	position: absolute;
+	left: 1227px;
+	top:0px;
+	margin-top: 25px;
+	width: 50px;
+	height: 50px;
+	border:1px #ddd solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+.search img{
+	width: 24px;
+	height: 24px;
+	margin: 13px;
+}
+/*首页中间内容部分*/
+.content{
+	clear: left;
+	margin:0px;
+	position: relative;
+	left: 0px;
+	top:-102px;
+	width: 100%;
+}
+.banner{
+	position: relative;
+	left: 0px;
+	top:0px;
+	width: 100%;
+	height: 370px;
+	overflow: hidden;
+}
+.banner>#list{
+	width: 8184px;
+	height: 370px;
+	position:absolute;
+	top:0px;
+	left: -1364px;
+	z-index:1;
+}
+.banner>#list>a{
+	display: block;
+	float: left;
+	width: 1364px;
+	height: 370px;
+}
+.banner>#list img{
+	float: left;
+	width: 100%;
+	height: 370px;
+}
+.banner>#buttons{
+	position: absolute;
+	bottom: 20px;
+	right: 120px;
+	z-index: 2;
+}
+.banner>#buttons>div{
+	float: left;
+	margin:0 2px;
+	width: 9px;
+	height: 9px;
+	background: rgba(0,0,0,0.5);
+	border:1px #777 solid;
+	border-radius: 50%;
+}
+.banner>#buttons>div:nth-child(1){
+	background: #ccc;
+}
+/*banner处的左右滑动的控件*/
+.banner>.jtleft,.banner>.jtright{
+	position: absolute;
+	top: 146px;
+	width: 40px;
+	height: 60px;
+	z-index: 2;
+}
+.banner>.jtleft>img,.banner>.jtright>img{
+	width: 40px;
+	height: 46px;
+	margin: 7px 0;
+}
+.banner>.jtleft{
+	left: 300px;
+}
+.banner>.jtright{
+	right: 60px;
+}
+.banner>.jtleft:hover,.banner>.jtright:hover{
+	background: rgba(0,0,0,0.5);
+}
+/*banner上的左边侧边栏*/
+.leftmenu{
+	position: absolute;
+	left: 60px;
+	top:0px;
+	width: 240px;
+	height: 370px;
+	background: rgba(0,0,0,0.5);
+	z-index: 3;
+}
+.menucontent{
+	position: relative;
+	font-size: 15px;
+	margin-top:16px;
+}
+.menucontent>li>span{
+	width: 214px;
+	display: block;
+	height: 85px;
+	padding-left:26px; 
+	text-align: left;
+	color: #fff;
+	line-height: 40px;
+}
+.menucontent>li>span>a{
+	font-size: 14px;
+	color: #fff;
+	margin-right:10px;
+}
+.menucontent>li>span>a:hover{
+	text-decoration: underline;
+}
+.menucontent>li:hover>span{
+	background-color: #EA298E;
+}
+.menucontent>li>.menu-right{
+	position: absolute;
+	left:240px;
+	top:-16px;
+	display: none;
+	width: 260px;
+	height: 370px;
+	background: rgba(255,255,255,0.9);
+}
+.menucontent>li>.menu-right>ul>li{
+	font-size: 14px;
+	width: 260px;
+	height: 92px;
+	line-height: 92px;
+}
+.menucontent>li>.menu-right>ul>li>img{
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+	margin-right:8px;
+	margin-left:13px;
+}
+.menucontent>li>.menu-right>ul>li>div{
+	float: right;
+	width: 50px;
+	height: 22px;
+	font-size: 14px;
+	margin-right:20px;
+	margin-top:34px;
+	text-align: center;
+	line-height: 22px;
+	border: 1px #FA7C7C solid;
+}
+.menucontent>li>.menu-right>ul>li>div:hover{
+	background: #FA7C7C;
+	color:#fff;
+}
+/*banner上的左边侧边栏,碰到每一个li,会出现拓展内容*/
+.menucontent>li:hover>.menu-right{
+	display: block;
+}
+/*banner图下面的内容*/
+.bannerbottom{
+	margin-top: 5px;
+	width: 1226px;
+	height: 180px;
+	margin-left:60px; 
+}
+.bannerbottom>.bbleft{
+	margin-top:10px; 
+	float: left;
+	margin-right: 14px;
+	width: 234px;
+	height: 170px;
+	text-align: center;
+}
+.bannerbottom>.bbleft>div{
+	float: left;
+	width: 78px;
+	height: 85px;
+	color: #ccc;
+	background: #5F5750;
+}
+.bannerbottom>.bbleft>div>img{
+	margin-top:22px;
+}
+.bannerbottom>.bbleft>div>img:hover{
+	transform: rotate(360deg);
+	transition:transform 0.4s;
+}
+.bannerbottom>.bbleft>div:hover{
+	color: #fff;
+}
+.bannerbottom>.bbright{
+	float: left;
+	height: 180px;
+}
+.bannerbottom>.bbright>a{
+	float: left;
+	display: block;
+	margin-top:9px;
+	margin-left: 12px;
+	width: 316px;
+	height: 171px;
+}
+.bannerbottom>.bbright>a>img{
+	width: 316px;
+	height: 171px;
+	transition: all 0.4s;
+}
+.bannerbottom>.bbright>a:nth-child(1){
+	margin-left:0;
+	width: 318px;
+	height: 170px;
+}
+.bannerbottom>.bbright>a:hover>img{
+	margin-top:-5px;
+	transition: all 0.4s;
+	box-shadow: 0px 8px 14px rgba(0,0,0,0.5);
+}

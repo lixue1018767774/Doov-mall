@@ -1,0 +1,344 @@
+/*头部第一个横向菜单的样式*/
+.menufirst{
+	width: 100%;
+	height: 40px;
+	background-color: #333;
+	color: #777;
+}
+.menufirst li{
+	position: relative;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 8px;
+}
+.menufirst li:nth-child(1){
+	margin-left: 60px;
+}
+.menufirst .fk{
+	margin-right: 845px;
+}
+.menufirst li a{
+	color: #ccc;
+}
+.menufirst li a:hover{
+	color: #fff;
+}
+/*头部朵唯微信处的样式*/
+.weixin{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 40px;
+	left: -8px;
+	z-index: 3;
+	display: none;
+}
+.menufirst li:nth-child(1):hover>.weixin{
+	display: block;
+}
+/*头部第一个横向菜单最右边的div的样式*/
+.menufirst-right{
+	position: relative;
+	left:1160px;
+	top: -40px;
+	width: 120px;
+	height: 40px;
+}
+.menufirst-right>a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #b0b0b0;
+	line-height: 40px;
+	text-align: center;
+	background-color: #424242;
+}
+.menufirst-right>a:hover{
+	color:#b0b0b0; 
+}
+/*购物车图片样式*/
+.shoppingcar{
+	vertical-align: middle;
+}
+/*首页头部第二个导航条*/
+.nav{
+	clear: left;
+	position: relative;
+	top: -40px;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	border-bottom: 1px #ccc solid;
+}
+.icon{
+	clear: left;
+	float: left;
+	margin-left: 60px;
+	margin-top: 22px; 
+}
+/*头部第二个横向菜单的样式*/
+.menusecond{
+	clear: left;
+	position: relative;
+	top:-43px;
+	left: 370px;
+	width: 452px;
+	height:60px;
+}
+.menusecond>li{
+	float: left;
+}
+.menusecond>li>a{
+	font-size: 16px;
+	display: block;
+	height:60px;
+	margin-right:45px; 
+	line-height: 60px;
+}
+.menusecond>li:nth-child(5)>a{
+	margin-right:0; 
+}
+/*头部搜索框样式*/
+.searchtxt{
+	clear:left;
+	position: absolute;
+	left: 988px;
+	top:-14px;
+	margin-top: 25px;
+	padding-left: 10px;
+	width: 228px;
+	height: 36px;
+	border:1px #ddd solid;
+}
+.search{
+	position: absolute;
+	left: 1227px;
+	top:-14px;
+	margin-top: 25px;
+	width: 36px;
+	height: 36px;
+	border:1px #ddd solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+.search img{
+	width: 24px;
+	height: 24px;
+	margin: 7px;
+}
+/*中间部分样式*/
+.center{
+	position: relative;
+	top: -40px;
+	left: 60px;
+	width: 1226px;
+	height: 470px;
+}
+.dlleft{
+	position: absolute;
+	left: 60px;
+	top: 80px; 
+}
+.dlright{
+	position: relative;
+	left:624px;
+	top: 0;
+	width: 600px;
+	height: 470px;
+}
+.line{
+	width: 1px;
+	height: 420px;
+	position: absolute;
+	left: 624px;
+	top: 25px;
+	background: #ccc;
+}
+.saoma{
+	position: absolute;
+	right: 13px;
+	top: 13px;
+}
+.content{
+	position: absolute;
+	left: 140px;
+	top: 0px;
+	width: 320px;
+	height: 470px;
+}
+.tit{
+	width: 320px;
+	height: 80px;
+	font-size: 18px;
+	line-height: 80px;
+	text-align: center;
+}
+.tit>span{
+	color: #aaa;
+}
+/*登录页面的表单样式*/
+.content>form>input{
+	margin-left: 12px;
+	width: 280px;
+	height: 36px;
+	padding-left:15px; 
+	border: 1px #ccc solid;
+}
+.content>form>input:nth-of-type(3){
+	width: 190px;
+}
+.content>form>span{
+	margin-left: 12px;
+	display: block;
+	color: red;
+	width: 280px;
+	height: 20px;
+	padding-left: 15px;
+	line-height: 20px;
+}
+.content>form>.btn{
+	margin-top:12px;
+	width: 295px;
+	height: 36px;
+	color: #fff;
+	background: #FB7D7E;
+	border: none;
+}
+.yzm{
+	position: absolute;
+	right: 11px;
+	top: 200px; 
+}
+.content>fieldset{
+	margin: 26px auto;
+	width: 280px;
+	border: none;
+	border-top:1px #ccc solid; 
+	color: #999;
+}
+.tubiao{
+	margin:0 auto;
+	width: 140px;
+	height: 26px;
+}
+.tubiao>img{
+	margin-right: 20px;
+}
+.tubiao>img:nth-child(3){
+	margin-right: 0px;
+}
+.content>p{
+	margin:26px auto;
+	width: 169px;
+	color: #ccc;
+}
+.content>p>a{
+	color: #656565;
+	margin:0 10px;
+}
+.content>p>a:hover{
+	color: #E5006A;
+}
+/*扫码登录的具体内容*/
+.otherlogin{
+	position: absolute;
+	left:624px;
+	top: 0;
+	width: 600px;
+	height: 470px;
+	background: #fff;
+	display: none;
+}
+.otherlogin>span{
+	position: absolute;
+	right: 30px;
+	top:20px;
+	font-size: 24px;
+	cursor:pointer;
+}
+.nrong{ 
+	margin: 0 auto;
+	width: 270px;
+	height: 470px;
+	text-align: center;
+}
+.nrong>div{
+	margin: 35px auto;
+	width: 240px;
+	color: #FB7D7E;
+	font-size: 26px;
+}
+.nrong>p{
+	margin: -16px auto;
+	width: 240px;
+	color: #656565;
+}
+.nrong>img{
+	margin-top: 50px;
+	margin-left: 5px; 
+}
+/*尾部样式*/
+footer{
+	position: relative;
+	left: 0;
+	top: -40px;
+	width: 100%;
+	height: 220px;
+	background: #eee;
+	text-align: center;
+}
+.foot{
+	width: 1226px;
+	height: 240px;
+	margin-left: 60px;
+}
+.foot>li{
+	float: left;
+	width: 245px;
+	height: 220px;
+}
+.foot>li>div{
+	margin: 21px auto;
+	width: 100px;
+	height: 180px;
+	text-align: center;
+}
+.ftimg{
+	margin: 0px auto;
+	width: 54px;
+	height: 54px;
+}
+.ftimg1{
+	background: url(../images/foot.png) no-repeat;
+}
+.ftimg2{
+	background: url(../images/foot.png) -74px 0 no-repeat;
+}
+.ftimg3{
+	background: url(../images/foot.png) -148px 0 no-repeat;
+}
+.ftimg4{
+	background: url(../images/foot.png) -222px 0 no-repeat;
+}
+.ftimg5>img{
+	width: 54px;
+	height: 54px;
+}
+.foot>li>div>span{
+	display: block;
+	margin: 10px 0;
+	font-weight: bold;
+	color: #444;
+}
+.foot>li>div>a{
+	color: #555;
+	font-size: 14px;
+}
+.foot>li>div>a:hover{
+	color:#E5006A;
+}
+footer p{
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 20px; 
+}

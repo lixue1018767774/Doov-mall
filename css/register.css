@@ -1,0 +1,97 @@
+/*登录页面的中间部分*/
+section{
+	position: relative;
+	left: 70px;
+	top:-40px;
+	width: 1226px;
+	height: 580px;
+}
+.rcontent{
+	position: absolute;
+	left: 140px;
+	top: 0px;
+	width: 320px;
+	height: 362px;
+}
+.rcontent .tit{
+	width: 320px;
+	height: 80px;
+	font-size: 18px;
+	line-height: 80px;
+	text-align: center;
+}
+.rcontent .tit>span{
+	color: #aaa;
+}
+/*登录页面的表单样式*/
+.rcontent>form>input{
+	margin-left: 12px;
+	width: 280px;
+	height: 36px;
+	padding-left:15px; 
+	border: 1px #ccc solid;
+}
+.rcontent>form>input:nth-of-type(4){
+	width: 190px;
+}
+.rcontent>form>span{
+	margin-left: 12px;
+	display: block;
+	color: red;
+	width: 280px;
+	height: 20px;
+	padding-left: 15px;
+	line-height: 20px;
+}
+.rcontent>form>.btn{
+	margin-top:12px;
+	width: 295px;
+	height: 36px;
+	color: #fff;
+	background: #FB7D7E;
+	border: none;
+}
+.rcontent .yzm{
+	position: absolute;
+	right: 11px;
+	top: 258px; 
+}
+.xyname{
+	position: absolute;
+	left: 150px;
+	top: 368px; 
+	color: #555;
+	font-size: 14px;
+}
+#xy{
+	position: absolute;
+	left: 150px;
+	top: 394px; 
+	padding: 0 7px;
+	border: 1px #ccc solid;
+	color: #777;
+	font-size: 12px;
+	resize: none;
+}
+.cright{
+	position: absolute;
+	right: 140px;
+	top: 78px;
+	padding: 24px 20px;
+	width: 260px;
+	height: 188px;
+	background: #FFF8DB;
+}
+.crp1{
+	margin: 12px 0;
+	font-size: 16px;
+	color: #FB7D7E;
+}
+.crp2{
+	margin: 5px 0;
+	font-size: 14px;
+	color: #555;
+}
+.crp2>a{
+	color: #FB7D7E;
+}

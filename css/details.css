@@ -1,0 +1,276 @@
+body{
+	background: none;
+}
+.nav{
+	border-bottom: 1px #ccc solid;
+}
+section{
+	clear: left;
+	margin:0px;
+	position: relative;
+	left: 60px;
+	top:-72px;
+	width: 1226px;
+	/*background: pink;*/
+}
+.leftimg{
+	position: relative;
+	width:500px;
+	height: 620px;
+}
+.small_pic,.big_pic{
+	width:500px;
+	height: 500px;
+	border:1px #FB7D7E solid;
+	overflow: hidden;
+}
+.small_pic>img{
+	width:400px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.overlay{
+	display: none;
+	position: absolute;
+	top: 130px;
+	left: 130px;
+	width: 100px;
+	height: 100px;	
+	background-color: red;
+	opacity: 0.4;
+}
+.imgul{
+	position: relative;
+	margin-left: 24px;
+	width: 452px;
+	height: 114px;
+	overflow: hidden;
+}
+.imgul>ul{
+	position: absolute;
+	top: 23px;
+	left: 0px;
+	clear: left;
+	width: 546px;
+	height: 74px;
+}
+.imgul>ul>li{
+	float: left;
+	width: 74px;
+	height: 74px;
+	margin-right: 18px; 
+	border: 1px #ccc solid;
+}
+.imgul>ul>li:last-child{
+	margin-right: 0px;
+}
+.imgul>ul>li>img{
+	width: 74px;
+	height: 74px;
+}
+.toright,.toleft{
+	width: 15px;
+	height: 74px;
+	position: absolute;
+	top: 526px;
+	border: 1px #ccc solid;
+}
+.toright{
+	right: 0;
+}
+.toleft{
+	left: 0;
+}
+.toright>img,.toleft>img{
+	margin-top: 30px; 
+}
+.toleft>img{
+	margin-left: -7px; 
+}
+.big_pic{
+	position: absolute;
+	top: 0px;
+	left: 501px;
+	background: #fff;
+	z-index: 4;
+	display: none;
+}
+.big_pic>img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.rightcontent{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 640px;
+	height: 500px;
+}
+.sectiontop>span{
+	display: block;
+	width: 640px;
+	height: 80px;
+	font-size: 28px;
+	line-height: 80px;
+	border-bottom:1px #ccc solid;
+}
+.sectiontop>span>span{
+	color: #FB7D7E;
+	margin-left: 10px;
+}
+.sectiontop>span>a{
+	color: #656565;
+	font-size: 13px;
+	float: right;
+	margin-top: 6px;
+}
+.sectionone{
+	margin-top: 20px;
+}
+.sectionone>p,.sectiontwo>p{
+	color: #444;
+	font-size: 20px;
+}
+.sectionone>div>div{
+	float: left;
+	width: 240px;
+	height: 50px;
+	border:1px #ccc solid;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #555;
+}
+.sectionone>div>.firstone{
+	border:1px #FB7D7E solid;
+}
+.sectiontwo{
+	clear: both;
+	padding-top: 20px; 
+	width: 100%;
+	height: 104px;
+}
+.sectiontwo>div{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px; 
+	border:1px #ccc solid;
+	line-height: 50px;
+	color: #555;
+	text-align: center;
+}
+.sectiontwo>.num{
+	width: 200px;
+	border-left:none;
+	border-right:none;
+}
+.sectionthree{
+	margin-top: 40px; 
+	width: 100%;
+	height: 60px;
+}
+.sectionthree>div{
+	float: left;
+	width: 280px;
+	height: 55px;
+	color: #E5006A;
+	border:1px #E5006A solid;
+	line-height: 55px;
+	text-align: center;
+}
+.sectionthree>div:nth-child(1){
+	background: #E5006A;
+	color: #fff;
+	margin-right: 30px; 
+}
+/*中间内容:详细信息处的样式*/
+.message{
+	position: relative;
+	left: 60px;
+	top: 0;
+	width: 1226px;
+}
+.mestop{
+	width: 100%;
+	height: 44px;
+	background: #F2F2F2;
+	border-bottom: 1px #E5006A solid;
+}
+.mestop>ul>li{
+	float: left;
+	width: 120px;
+	height: 44px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+	color: #444;
+}
+.mestop>ul>li:nth-child(1){
+	background: #E5006A;
+	color: #fff;
+}
+.mesbottom{
+	width: 100%;
+}
+.mescontent1>ul>li>img{
+	width: 100%;
+}
+.mescontent2,.mescontent3,.mescontent4{
+	display: none;
+}
+.mescontent2>table{
+	margin-top: 30px; 
+	width: 100%;
+	/*为表格设置合并边框模型*/
+	border-collapse:collapse;
+}
+.mescontent2>table td{
+	padding: 0 10px;
+	height: 40px;
+	border: 1px #ccc solid;
+	font-size: 14px;
+	color: #555;
+}
+.mescontent2>table .one{
+	font-size: 16px;
+	color: #444;
+	height: 46px;
+	background: #F1F1F1;
+}
+.tleft{
+	width: 120px;
+	text-align: right;
+}
+.mescontent3,.mescontent4{
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+.mescontent3>p,.mescontent4>p{
+	position: absolute;
+	top: 100px;
+	left: 560px;
+	color: #E5006A;
+	font-size: 12px;
+}
+.mescontent3>div,.mescontent4>div{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	width: 100px;
+	height: 38px;
+	background: #E5006A;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+}
+footer{
+	top: 30px;
+}

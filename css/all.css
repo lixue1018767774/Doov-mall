@@ -1,0 +1,18 @@
+/*整体样式*/
+*{margin: 0; padding: 0;}
+body,ul,ol,tr,dl,dd,form,input,h1{margin:0px;padding:0px;}
+a{color:#000; text-decoration: none;} 
+/*超链接伪类样式*/   
+a:hover{color:#E5006A;cursor: pointer;} 
+a img{border:0px;}
+/*所有的li的样式无*/
+li{list-style:none;}
+/*所有的input标签都统一为细边框 ，高度22px*/
+input{border:1px black solid;height:22px;}
+.fontsmall{font-size: 12px;}
+.fontmid{font-size: 14px;}
+.fontbig{font-size: 24px;}
+.fontbigbig{font-size: 28px;margin-top: -3px;}
+.greyfont{color: #aaa;}
+.greywfont{color: #888;}
+.orangefont{color: #FB7D7E;}
